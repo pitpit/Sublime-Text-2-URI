@@ -37,4 +37,4 @@ Create the file `app/Resources/TwigBundle/views/Exception/trace.html.twig` conta
         </div>
     {% endif %}
 
-It adds an link (a star) on each trace line top open the file in your favorite editor.
+It adds an link (a star) on each trace line... Just click on it to open the file in your favorite editor !
