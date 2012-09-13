@@ -6,7 +6,7 @@ For OSX only.
 ## Installation
 
 * [Download the latest package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
-* Open the dmg package and drag'n drop *Sublime Text 2 URI* to your *Application* folder
+* Open the package and drag'n drop *Sublime Text 2 URI* to your *Application* folder
 
 ## Open a file traced in a Symfony2 Exception
 
