@@ -12,7 +12,7 @@ It works only on OSX for now.
 
 Create the file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
 
-{% set replace = {"/mnt/workspace": "~/Workspace"} %}
+    {% set replace = {"/mnt/workspace": "~/Workspace"} %}
     {% if trace.function %}
         at
         <strong>
