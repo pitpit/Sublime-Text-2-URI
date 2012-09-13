@@ -4,8 +4,6 @@ This light application create an URI protocol (*edit://*) to directly edit a fil
 
 It works only on OSX for now.
 
-## Installation
-
 [Download the latest package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
 
 ## Use it with Symfony2 exceptions
