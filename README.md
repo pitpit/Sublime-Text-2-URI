@@ -1,16 +1,15 @@
 # Sublime Text 2 URI
 
-This light application create an URI protocol (*edit://*) to directly edit a file from browser to Sublime Text 2.
-
-It works only on OSX for now.
+This application allows you to directly open a file from your browser into Sublime Text 2.
+For OSX only.
 
 [Download the latest package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
 
-## Use it with Symfony2 exceptions
+## Open a file traced into a Symfony2 Exception
 
 Override a file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
 
-    {% set replace = {"/mnt/workspace": "~/Workspace"} %}
+    {% set replace = {"/mnt/workspace": "~/Workspace"} %}{# needed when the apache server do not use the same path tree than the developer desktop. ie: using VM) #}
     {% if trace.function %}
         at
         <strong>
