@@ -8,7 +8,7 @@ It works only on OSX for now.
 
 ## Use it with Symfony2 exceptions
 
-Create the file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
+Override a file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
 
     {% set replace = {"/mnt/workspace": "~/Workspace"} %}
     {% if trace.function %}
