@@ -7,7 +7,7 @@ For OSX only.
 
 ## Open a file traced in a Symfony2 Exception
 
-Override a file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
+Create a file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
 
     {% set replace = {"/mnt/workspace": "~/Workspace"} %}{# needed when the apache server do not use the same path tree than the developer desktop. ie: using VM) #}
     {% if trace.function %}
