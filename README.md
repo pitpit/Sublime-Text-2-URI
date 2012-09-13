@@ -5,7 +5,7 @@ For OSX only.
 
 [Download the latest package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
 
-## Open a file traced into a Symfony2 Exception
+## Open a file traced in a Symfony2 Exception
 
 Override a file `app/Resources/TwigBundle/views/Exception/trace.html.twig` containing:
 
