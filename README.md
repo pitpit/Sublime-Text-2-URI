@@ -6,7 +6,7 @@ It works only on OSX for now.
 
 ## Installation
 
-[Download the last package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
+[Download the latest package here](https://github.com/pitpit/Sublime-Text-2-URI/downloads)
 
 ## Use it with Symfony2 exceptions
 
